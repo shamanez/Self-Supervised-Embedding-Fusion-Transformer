@@ -1,0 +1,10 @@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$ Best Testing Acc so far 54.07 before 20 epochs$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
+python train.py  --data ./T_data-old/mosei_sent    --restore-file None   --task emotion_prediction     --reset-optimizer --reset-dataloader --reset-meters     --init-token 0 --separator-token 2     --arch robertEMO_large     --criterion emotion_prediction_cri     --num-classes 1     --dropout 0.1 --attention-dropout 0.1     --weight-decay 0.1 --optimizer adam --adam-betas "(0.9, 0.98)" --adam-eps 1e-06     --clip-norm 0.0     --lr-scheduler polynomial_decay --lr 3e-04  --total-num-update 400000 --warmup-updates 600     --max-epoch 32     --best-checkpoint-metric accuracy --maximize-best-checkpoint-metric    --encoder-layers 2  --encoder-attention-heads 4 --max-sample-size 150000  --max-tokens 150000000 --batch-size 4  --encoder-layers-cross 2  --max-positions-t 512  --max-positions-a 936 --max-positions-v 301  --no-epoch-checkpoints   --update-freq 2 --find-unused-parameters --ddp-backend=no_c10d --regression-target-mos
+
+******* Now Testing********
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$ Best Testing Acc so far 55.7 before 20 epochs$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  85.32 for the binary acc
+python train.py  --data ./T_data-old/mosei_sent    --restore-file None   --task emotion_prediction     --reset-optimizer --reset-dataloader --reset-meters     --init-token 0 --separator-token 2     --arch robertEMO_large     --criterion emotion_prediction_cri     --num-classes 1     --dropout 0.1 --attention-dropout 0.1     --weight-decay 0.1 --optimizer adam --adam-betas "(0.9, 0.98)" --adam-eps 1e-06     --clip-norm 0.0     --lr-scheduler polynomial_decay --lr 3e-04  --total-num-update 400000 --warmup-updates 600     --max-epoch 32     --best-checkpoint-metric accuracy --maximize-best-checkpoint-metric    --encoder-layers 2  --encoder-attention-heads 2 --max-sample-size 150000  --max-tokens 150000000 --batch-size 8  --encoder-layers-cross 1  --max-positions-t 512  --max-positions-a 936 --max-positions-v 301  --no-epoch-checkpoints   --update-freq 1 --find-unused-parameters --ddp-backend=no_c10d --regression-target-mos
+
+
+
