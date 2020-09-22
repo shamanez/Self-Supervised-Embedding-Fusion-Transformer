@@ -1,5 +1,4 @@
-# Imo_Trimodal_SSL
-This repositary consist the pytorch code for Multimodal Emotion Recogntion with SSL Embeddings
+#This repositary consist the pytorch code for Tri-Model Emotion Recogntion with SSL Embeddings
 
 
 # Basic strucutre of the code
