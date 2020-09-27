@@ -1,4 +1,4 @@
-# This repositary consist the pytorch code for Tri-Model Emotion Recogntion with SSL Embeddings
+# [Multimodal Emotion Recognition with Transformer-Based Self Supervised Feature Fusion](https://ieeexplore.ieee.org/document/9206016)
 
 
 # Basic strucutre of the code
