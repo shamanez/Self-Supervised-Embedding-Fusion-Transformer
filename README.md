@@ -1,6 +1,8 @@
 # [Multimodal Emotion Recognition with Transformer-Based Self Supervised Feature Fusion](https://ieeexplore.ieee.org/document/9206016)
 
 
+![Model Overviw](https://github.com/shamanez/BERT-like-is-All-You-Need/blob/master/pipeline.jpg)
+
 # Basic strucutre of the code
 
 ## Inspiration from fairseq
