@@ -3,6 +3,10 @@
 
 ![Model Overviw](https://github.com/shamanez/Self-Supervised-Embedding-Fusion-Transformer/blob/master/figure.png)
 
+# ****Text Update*****
+
+[Please replace the Table 6 of the paper with this table.]()
+
 # Basic strucutre of the code
 
 ## Inspiration from fairseq
