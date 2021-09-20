@@ -3,9 +3,9 @@
 
 ![Model Overviw](https://github.com/shamanez/Self-Supervised-Embedding-Fusion-Transformer/blob/master/figure.png)
 
-# ****Text Update*****
+# ****Please replace the Table 6 in the paper*****
 
-[Please replace the Table 6 of the paper with this table.]()
+[Please replace the Table 6 of the paper with this table.](https://github.com/shamanez/Self-Supervised-Embedding-Fusion-Transformer/blob/master/MOSI.pdf)
 
 # Basic strucutre of the code
 
