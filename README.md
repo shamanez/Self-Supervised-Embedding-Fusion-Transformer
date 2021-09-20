@@ -3,7 +3,7 @@
 
 ![Model Overviw](https://github.com/shamanez/Self-Supervised-Embedding-Fusion-Transformer/blob/master/figure.png)
 
-# ****Please replace the Table 6 in the paper*****
+# ****Please replace the Table 6 in the paper****
 
 [Please replace the Table 6 of the paper with this table.](https://github.com/shamanez/Self-Supervised-Embedding-Fusion-Transformer/blob/master/MOSI.pdf)
 
